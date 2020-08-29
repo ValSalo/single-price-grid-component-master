@@ -1,0 +1,129 @@
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h2{
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin: 0;
+}
+
+h3{
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h4{
+  color: white;
+  margin: 0;
+  font-weight: 700;
+}
+
+p{
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  line-height: 2;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.p-small{
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 1.5;
+}
+
+.main-box{
+  height: 500px;
+  width: 635px;
+  margin: 160px auto;
+}
+
+.top-row{
+  background-color: white;
+  border-radius: 7px 7px 0 0;
+  text-align: left;
+  padding: 40px;
+}
+
+.bottom-row{
+  display: flex;
+}
+
+.box-left{
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+  padding: 40px;
+  border-radius: 0 0 0 7px;
+}
+
+.box-right{
+  width: 50%;
+  background-color: hsl(179, 62%, 53%);
+  padding: 40px;
+  border-radius: 0 0 7px 0;
+}
+
+.price{
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 20px;
+}
+.price2{
+  color: hsl(179, 62%, 53%);
+  display: inline-block;
+  padding: 15px 0 0 15px;
+  margin: auto;
+  vertical-align: super;
+}
+
+.price3{
+  font-weight: 400;
+  color: white;
+  font-size: 15px;
+}
+
+.signup-button {
+  margin-top: 25px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 0;
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .main-box{
+    height: 100%;
+    width: 90%;
+    margin: 70px auto;
+  }
+
+  .bottom-row{
+    display: block;
+  }
+  .box-left{
+    width: auto;
+    border-radius: 0 0 0 0;
+  }
+
+  .box-right{
+    width: auto;
+    border-radius: 0 0 7px 7px;
+  }
+}
