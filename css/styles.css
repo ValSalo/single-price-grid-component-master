@@ -41,14 +41,15 @@ p{
 }
 
 .main-box{
-  height: 500px;
+  height: auto;
   width: 635px;
   margin: 160px auto;
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 .top-row{
   background-color: white;
-  border-radius: 7px 7px 0 0;
   text-align: left;
   padding: 40px;
 }
@@ -61,14 +62,12 @@ p{
   width: 50%;
   background-color: hsl(179, 62%, 43%);
   padding: 40px;
-  border-radius: 0 0 0 7px;
 }
 
 .box-right{
   width: 50%;
   background-color: hsl(179, 62%, 53%);
   padding: 40px;
-  border-radius: 0 0 7px 0;
 }
 
 .price{
@@ -119,11 +118,9 @@ p{
   }
   .box-left{
     width: auto;
-    border-radius: 0 0 0 0;
   }
 
   .box-right{
     width: auto;
-    border-radius: 0 0 7px 7px;
   }
 }
